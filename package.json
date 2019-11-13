@@ -2,6 +2,7 @@
   "name": "rails-simple-airbnb",
   "private": true,
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1"
   }
 }
