@@ -11,7 +11,7 @@ Flat.destroy_all
 
 puts 'Creating flast...'
 
-5.times do Flat.create!(
+10.times do Flat.create!(
   [
   {
     name: Faker::Superhero.name,

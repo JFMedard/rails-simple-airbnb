@@ -1,0 +1,9 @@
+
+<%= simple_form_for @flat do |f| %>
+  <%= f.input :name, label: 'Chose a title', error: 'Title is mandatory, please specify one' %>
+  <%= f.input :address, hint: 'Be precise!' %>
+  <%= f.input :description, placeholder: 'Super flat in Brooklyn' %>
+  <%= f.input :price_per_night, placeholder: '145 €' %>
+  <%= f.input :number_of_guests, collection: Flat::GUESTS %>
+  <%= f.submit class: 'btn btn-primary' %>
+<% end %>
